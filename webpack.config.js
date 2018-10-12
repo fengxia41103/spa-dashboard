@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, "dist");
+var BUILD_DIR = path.resolve(__dirname, "doc");
 var APP_DIR = path.resolve(__dirname, 'src');
 
 // Boring CommonJS JavaScript
