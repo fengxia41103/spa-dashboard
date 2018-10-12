@@ -23,4 +23,22 @@ Assuming a `remote folder` is being served by a web server such as
 3. `rsync -azP dist <remote folder>
 5. Verify on a browser.
 
+# github pages
 
+1. From scratch, first add a `subtree`:
+
+        ```shell
+        $ git add dist && git commit -m "Initial dist subtree commit"           
+        ```
+
+2. Build: `npm run build`, this will create/update `dist/` folder.
+
+3. Push to `pg-pages` branch:
+
+        ```shell
+        $ git subtree push --prefix dist origin gh-pages
+        ```
+4. Make sure to use `./bundle.js` in `index.html`. Otherwise, it won't
+   find `bundle.js`. Strange.
+
+5. Go to `https://fengxia41103.github.io/spa-dashboard/`. Enjoy.
