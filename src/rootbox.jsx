@@ -478,8 +478,8 @@ var RootBox = React.createClass({
     var me = JSON.stringify(this.state.config, null, 2);
     return (
       <div className="container">
-
         <div className="pin-card z-deph-2">
+          <h5>Phase 5: Platform Services</h5>
           <ServiceList config={this.state.config}
                        config_server={this.state.config_server} />
         </div>
