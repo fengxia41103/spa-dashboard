@@ -10,7 +10,7 @@ var Header = React.createClass({
 
       <div className="myheader blue-grey darken-2">
         <video autoplay muted loop id="myVideo">
-          <source src="downloads/lenovo%20the%20doer.mp4" type="video/mp4" />}
+          <source src="./downloads/lenovo%20the%20doer.mp4" type="video/mp4" />}
         </video>
 
         <div className="container text-right">
