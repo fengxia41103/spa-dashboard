@@ -29,10 +29,10 @@ var VMConfig = React.createClass({
       }
       if (!_.isNull(setting) && !_.isUndefined(setting)){
         vm_settings.push((
-          [<label className="col l3 m6 s6 right-align">
+          [<label className="col l3 m6 s12 right-align">
             { key }:
           </label>,
-          <span className="col l3 m6 s6" style={divStyle}>
+          <span className="col l3 m6 s12" style={divStyle}>
             { setting }
           </span>]
         ));
