@@ -6,7 +6,7 @@ qcow_path: /root/rhel-server-7.5-x86_64-kvm-300G.qcow2
 qcow_upload_domain: vmstore
 
 
-url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
+url: https://lctc-brain1-engine.labs.feng.com/ovirt-engine/api
 username: admin@internal
 password: xxx
 ca_file: /root/engine.pem
@@ -24,9 +24,9 @@ vm_root_password: xxx
 cloud_init_nics:
   - nic_name: eth0
     nic_boot_protocol: static
-    nic_ip_address: 10.240.42.9
+    nic_ip_address: xxx.xxx.42.9
     nic_netmask: 255.255.252.0
-    nic_gateway: 10.240.40.1
+    nic_gateway: xxx.xxx.40.1
     nic_on_boot: true
   - nic_name: eth1
     nic_boot_protocol: static
@@ -35,8 +35,8 @@ cloud_init_nics:
     nic_gateway: 172.20.20.1
     nic_on_boot: true
 
-dns1: 10.240.0.10
-dns2: 10.240.0.11
+dns1: xxx.xxx.0.10
+dns2: xxx.xxx.0.11
 host_name: brain1-discovery
 
 
@@ -61,13 +61,13 @@ nics:
     network_name: PhysicalMgmt
 
 
-lenovo_hpc: https://hpc.lenovo.com/yum/latest/el7/x86_64/lenovo-hpc-yum-1-1.x86_64.rpm
+hpc: https://hpc.feng.com/yum/latest/el7/x86_64/lenovo-hpc-yum-1-1.x86_64.rpm
 confetty_user: apiuser
 confetty_password: xxx
 
-satellite_ip: 10.240.220.50
-satellite_host: brain5-satellite.labs.lenovo.com
-satellite_org: Lenovo_Open_Cloud
+satellite_ip: xxx.xxx.220.50
+satellite_host: brain5-satellite.labs.feng.com
+satellite_org: My_Open_Cloud
 satellite_activationkey: rhel Development key
 
 
