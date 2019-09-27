@@ -6,7 +6,7 @@ qcow_path: /root/rhel-server-7.5-x86_64-kvm-300G.qcow2
 qcow_upload_domain: vmstore
 
 
-url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
+url: https://lctc-brain1-engine.labs.feng.com/ovirt-engine/api
 username: admin@internal
 password: xxx
 ca_file: /root/engine.pem
@@ -24,9 +24,9 @@ vm_root_password: xxx
 cloud_init_nics:
   - nic_name: eth0
     nic_boot_protocol: static
-    nic_ip_address: 10.240.41.1
+    nic_ip_address: xxx.xxx.41.1
     nic_netmask: 255.255.252.0
-    nic_gateway: 10.240.40.1
+    nic_gateway: xxx.xxx.40.1
     nic_on_boot: true
   - nic_name: eth1
     nic_boot_protocol: static
@@ -41,8 +41,8 @@ cloud_init_nics:
     nic_gateway: 172.20.30.1
     nic_on_boot: true
 
-dns1: 10.240.0.10
-dns2: 10.240.0.11
+dns1: xxx.xxx.0.10
+dns2: xxx.xxx.0.11
 host_name: brain1-satellite
 
 
@@ -71,12 +71,12 @@ nics:
     network_name: VMMgmt
 
 
-cicd_git_user_pwd: chucz1:MCNEW-189
+cicd_git_user_pwd: username:xxx
 sa_loc: Brain1
 
-satellite_ip: 10.240.43.185
-satellite_host: locsatellite.labs.lenovo.com
-satellite_org: Lenovo_Open_Cloud
+satellite_ip: xxx.xxx.43.185
+satellite_host: locsatellite.labs.feng.com
+satellite_org: My_Open_Cloud
 satellite_activationkey: RHHI deployment key
 
 

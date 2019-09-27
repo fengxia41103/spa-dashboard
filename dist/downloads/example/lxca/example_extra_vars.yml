@@ -11,7 +11,7 @@ qcow_path: /root/lnvgy_sw_lxca_204-2.1.0_kvm_x86-64.qcow2
 qcow_upload_domain: vmstore
 
 
-url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
+url: https://lctc-brain1-engine.labs.feng.com/ovirt-engine/api
 username: admin@internal
 password: xxx
 ca_file: /root/engine.pem
