@@ -1,6 +1,6 @@
 imm_user: USERID
-imm_password: PASSW0RD
-imm_ips: [10.240.41.243, 10.240.41.229, 10.240.41.228]
+imm_password: XXX
+imm_ips: [xxx.xxx.41.243, xxx.xxx.41.229, xxx.xxx.41.228]
 
 #below is the info which used to create raid by IMM CLI
 raid_info:
@@ -30,15 +30,15 @@ raid_info:
 
 #lxca
 lxca_user: admin
-lxca_password: Passw0rd
-lxca_url: https://10.240.41.200
+lxca_password: Xxx
+lxca_url: https://xxx.xxx.41.200
 
 #these variables will be passed to hosted-engine deploy process to setup the engine host
-admin_pw: passw0rd
+admin_pw: xxx
 engine_ip: 192.168.140.237
 engine_FQDN: lctc-brain1-engine.{{ domain }}
-engine_pw: passw0rd
-DNS: 10.240.0.10
+engine_pw: xxx
+DNS: xxx.xxx.0.10
 
 #these are the necessary values which need to provide to hosted-engine deploy process
 rhv_ovirt_ip: 192.168.140.231
@@ -48,10 +48,10 @@ frontend_interface: eno1
 frontend_interface2: eno2
 frontend_netmask: 255.255.255.0
 frontend_gateway: 192.168.140.200
-rhv_root_pw: passw0rd
-host2_root_pw: passw0rd
-host3_root_pw: passw0rd
-domain: labs.lenovo.com
+rhv_root_pw: xxx
+host2_root_pw: xxx
+host3_root_pw: xxx
+domain: labs.feng.com
 host3: brain1-3.{{ domain }}
 host2: brain1-2.{{ domain }}
 rhv_host: brain1-1.{{ domain }}
@@ -79,15 +79,15 @@ host2_gluster_interface2: ens2f0
 host3_gluster_interface2: ens2f0
 
 #
-rhv_provision_ip: 10.240.41.231
-host2_provision_ip: 10.240.41.232
-host3_provision_ip: 10.240.41.233
-provision_gateway: 10.240.40.1
+rhv_provision_ip: xxx.xxx.41.231
+host2_provision_ip: xxx.xxx.41.232
+host3_provision_ip: xxx.xxx.41.233
+provision_gateway: xxx.xxx.40.1
 provision_netmask: 255.255.252.0
 
 #satellite regiter info
-satellite_ip: 10.240.43.185
-satellite_url: locsatellite.labs.lenovo.com
+satellite_ip: xxx.xxx.43.185
+satellite_url: locsatellite.labs.feng.com
 activationkey: Platform test key
 glusterfskey: my test key
 lxca_dir: Brain1-boot-file-for-LXCA
@@ -104,7 +104,7 @@ lvm_size: 500
 
 
 #test vm IP address
-#testvm_ip: 10.240.220.19
+#testvm_ip: xxx.xxx.220.19
 
 rhv_10G_interface: ens1f1
 host2_10G_interface: ens1f1

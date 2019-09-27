@@ -1,29 +1,29 @@
 engine_username: admin@internal
-engine_password: passw0rd
+engine_password: xxx
 engine_ca_file: /etc/pki/ovirt-engine/ca.pem
 upload_qcow_size: 20GiB
 qcow_path: /root/rhel-server-7.5-x86_64-kvm.qcow2
 qcow_upload_domain: vmstore
 
 
-url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
+url: https://lctc-brain1-engine.labs.feng.com/ovirt-engine/api
 username: admin@internal
-password: passw0rd
+password: xxx
 ca_file: /root/engine.pem
 
 
 AT_setup: https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
 AT_latest_version: 3.2.5
-AT_admin_password: passw0rd
+AT_admin_password: xxx
 pg_host: database.example.com
 pg_port: 5432
 pg_database: awx
 pg_username: awx
-pg_password: passw0rd
+pg_password: xxx
 rabbitmq_port: 5672
 rabbitmq_vhost: tower
 rabbitmq_username: tower
-rabbitmq_password: passw0rd
+rabbitmq_password: xxx
 rabbitmq_cookie: cookiemonster
 rabbitmq_use_long_name: False
 
@@ -35,14 +35,14 @@ vm_name: brain1-ansible-tower
 
 
 vm_user: root
-vm_root_password: passw0rd
+vm_root_password: xxx
 
 cloud_init_nics:
   - nic_name: eth0
     nic_boot_protocol: static
-    nic_ip_address: 10.240.41.2
+    nic_ip_address: xxx.xxx.41.2
     nic_netmask: 255.255.252.0
-    nic_gateway: 10.240.40.1
+    nic_gateway: xxx.xxx.40.1
     nic_on_boot: true
   - nic_name: eth1
     nic_boot_protocol: static
@@ -57,8 +57,8 @@ cloud_init_nics:
     nic_gateway: 172.20.30.1
     nic_on_boot: true
 
-dns1: 10.240.0.10
-dns2: 10.240.0.11
+dns1: xxx.xxx.0.10
+dns2: xxx.xxx.0.11
 host_name: brain1-ansible-tower
 
 
@@ -95,11 +95,11 @@ nics:
     network_name: VMMgmt
 
 
-satellite_ip: 10.240.43.185
-satellite_host: locsatellite.labs.lenovo.com
-satellite_org: Lenovo_Open_Cloud
+satellite_ip: xxx.xxx.43.185
+satellite_host: locsatellite.labs.feng.com
+satellite_org: My_Open_Cloud
 satellite_activationkey: RHHI deployment key
-customer_file_path: Lenovo_Open_Cloud/Library/custom/ISO_and_qcow_files/other-files
+customer_file_path: My_Open_Cloud/Library/custom/ISO_and_qcow_files/other-files
 
 
 ssh_port: 22

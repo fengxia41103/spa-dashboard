@@ -1,5 +1,5 @@
 engine_username: admin@internal
-engine_password: passw0rd
+engine_password: xxx
 engine_ca_file: /etc/pki/ovirt-engine/ca.pem
 upload_qcow_size: 300GiB
 qcow_path: /root/rhel-server-7.5-x86_64-kvm-300G.qcow2
@@ -8,7 +8,7 @@ qcow_upload_domain: vmstore
 
 url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
 username: admin@internal
-password: passw0rd
+password: xxx
 ca_file: /root/engine.pem
 
 datacenter: Default
@@ -19,7 +19,7 @@ qcow_name: rhel7.5-qcow_dashboard
 
 
 vm_user: root
-vm_root_password: passw0rd
+vm_root_password: xxx
 
 cloud_init_nics:
   - nic_name: eth0

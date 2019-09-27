@@ -15,7 +15,7 @@ var Header = React.createClass({
 
         <div className="container text-right">
           <h1 className="myhighlight">
-            Lenovo Open <i className="fa fa-mixcloud"></i> Cloud
+            My Open <i className="fa fa-mixcloud"></i> Cloud
           </h1>
           Platform Services
           <p className="myhighlight">

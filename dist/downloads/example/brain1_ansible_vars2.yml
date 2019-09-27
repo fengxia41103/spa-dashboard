@@ -1,5 +1,5 @@
 imm_user: USERID
-imm_password: PASSW0RD
+imm_password: XXX
 imm_ips: [10.240.41.243, 10.240.41.229, 10.240.41.228]
 
 #below is the info which used to create raid by IMM CLI
@@ -30,14 +30,14 @@ raid_info:
 
 #lxca
 lxca_user: admin
-lxca_password: Passw0rd
+lxca_password: Xxx
 lxca_url: https://10.240.41.200
 
 #these variables will be passed to hosted-engine deploy process to setup the engine host
-admin_pw: passw0rd
+admin_pw: xxx
 engine_ip: 192.168.140.237
 engine_FQDN: lctc-brain1-engine.{{ domain }}
-engine_pw: passw0rd
+engine_pw: xxx
 DNS: 10.240.0.10
 
 #these are the necessary values which need to provide to hosted-engine deploy process
@@ -48,9 +48,9 @@ frontend_interface: eno1
 frontend_interface2: eno2
 frontend_netmask: 255.255.255.0
 frontend_gateway: 192.168.140.200
-rhv_root_pw: passw0rd
-host2_root_pw: passw0rd
-host3_root_pw: passw0rd
+rhv_root_pw: xxx
+host2_root_pw: xxx
+host3_root_pw: xxx
 domain: labs.lenovo.com
 host3: brain1-3.{{ domain }}
 host2: brain1-2.{{ domain }}

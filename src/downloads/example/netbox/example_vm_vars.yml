@@ -1,14 +1,14 @@
 engine_username: admin@internal
-engine_password: passw0rd
+engine_password: xxx
 engine_ca_file: /etc/pki/ovirt-engine/ca.pem
 upload_qcow_size: 30GiB
 qcow_path: /root/rhel-server-7.5-x86_64-kvm.qcow2
 qcow_upload_domain: vmstore
 
 
-url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
+url: https://lctc-brain1-engine.labs.feng.com/ovirt-engine/api
 username: admin@internal
-password: passw0rd
+password: xxx
 ca_file: /root/engine.pem
 
 datacenter: Default
@@ -19,14 +19,14 @@ qcow_name: rhel75_qcow_netbox
 
 
 vm_user: root
-vm_root_password: passw0rd
+vm_root_password: xxx
 
 cloud_init_nics:
   - nic_name: eth0
     nic_boot_protocol: static
-    nic_ip_address: 10.240.41.3
+    nic_ip_address: xxx.xxx.41.3
     nic_netmask: 255.255.252.0
-    nic_gateway: 10.240.40.1
+    nic_gateway: xxx.xxx.40.1
     nic_on_boot: true
   - nic_name: eth1
     nic_boot_protocol: static
@@ -35,8 +35,8 @@ cloud_init_nics:
     nic_gateway: 172.20.20.1
     nic_on_boot: true
 
-dns1: 10.240.0.10
-dns2: 10.240.0.11
+dns1: xxx.xxx.0.10
+dns2: xxx.xxx.0.11
 host_name: brain1-netbox
 
 
@@ -61,13 +61,13 @@ nics:
     network_name: PhysicalMgmt
 
 #no need this url variable due to the netbox setup playbooks have chnage to use another variable.
-#netbox_docker: http://brain5-satellite.labs.lenovo.com/pulp/isos/Lenovo_Open_Cloud/Library/custom/IBB-deploy-files/other-files/netbox-docker.tar
+#netbox_docker: http://brain5-satellite.labs.feng.com/pulp/isos/My_Open_Cloud/Library/custom/IBB-deploy-files/other-files/netbox-docker.tar
 
-satellite_ip: 10.240.43.185
-satellite_host: locsatellite.labs.lenovo.com
-satellite_org: Lenovo_Open_Cloud
+satellite_ip: xxx.xxx.43.185
+satellite_host: locsatellite.labs.feng.com
+satellite_org: My_Open_Cloud
 satellite_activationkey: RHHI deployment key
-customer_file_path: Lenovo_Open_Cloud/Library/custom/ISO_and_qcow_files/other-files
+customer_file_path: My_Open_Cloud/Library/custom/ISO_and_qcow_files/other-files
 
 
 ssh_port: 22

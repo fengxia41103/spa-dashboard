@@ -76,9 +76,9 @@ var config = {
   plugins: [
     new CopyWebpackPlugin([{
       from: "../index.html"
-    },{
-      from: 'images',
-      to: "images"
+    // },{
+    //   from: 'images',
+    //   to: "images"
     },{
       from: 'downloads',
       to: "downloads"

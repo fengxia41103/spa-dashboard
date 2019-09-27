@@ -3,7 +3,7 @@ j2_file :  ./lxca/lxca_vars.j2
 vars_file : ./lxca_vm_vars.yml
 
 engine_username: admin@internal
-engine_password: passw0rd
+engine_password: xxx
 engine_ca_file: /etc/pki/ovirt-engine/ca.pem
 upload_qcow_new_name: lxca-qcow
 upload_qcow_size: 200GiB
@@ -13,7 +13,7 @@ qcow_upload_domain: vmstore
 
 url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
 username: admin@internal
-password: passw0rd
+password: xxx
 ca_file: /root/engine.pem
 
 datacenter: Default

@@ -1,20 +1,20 @@
 engine_username: admin@internal
-engine_password: passw0rd
+engine_password: xxx
 engine_ca_file: /etc/pki/ovirt-engine/ca.pem
 upload_qcow_size: 200GiB
 qcow_path: /root/lnvgy_sw_lxca_204-2.1.0_kvm_x86-64.qcow2
 qcow_upload_domain: vmstore
 
 ip_conf_path: /root/eth0_config
-ipv4_addr: 10.240.43.212
+ipv4_addr: xxx.xxx.43.212
 ipv4_netmask: 255.255.252.0
-ipv4_gateway: 10.240.40.1
+ipv4_gateway: xxx.xxx.40.1
 iso_path: /root/boot.iso
 
 
-url: https://lctc-brain1-engine.labs.lenovo.com/ovirt-engine/api
+url: https://lctc-brain1-engine.labs.feng.com/ovirt-engine/api
 username: admin@internal
-password: passw0rd
+password: xxx
 ca_file: /root/engine.pem
 
 datacenter: Default
